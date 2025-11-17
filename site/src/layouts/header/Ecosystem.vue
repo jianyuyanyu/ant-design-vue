@@ -37,7 +37,7 @@
 </template>
 <script lang="ts">
 import { computed, defineComponent, inject } from 'vue';
-import type { GlobalConfig } from '../../App.vue';
+import type { GlobalConfig } from '../../type';
 import { GLOBAL_CONFIG } from '../../SymbolKey';
 import { getLocalizedPathname } from '../../utils/util';
 

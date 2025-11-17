@@ -52,7 +52,7 @@
   </header>
 </template>
 <script lang="ts">
-import type { GlobalConfig } from '../../App.vue';
+import type { GlobalConfig } from '../../type';
 import { GLOBAL_CONFIG } from '../../SymbolKey';
 import { getLocalizedPathname } from '../../utils/util';
 import { computed, defineComponent, inject, onMounted, ref, watch } from 'vue';
@@ -61,7 +61,6 @@ import Logo from './Logo.vue';
 import Menu from './Menu.vue';
 import { UnorderedListOutlined } from '@ant-design/icons-vue';
 import SearchBox from './SearchBox.vue';
-import { version } from 'ant-design-vue';
 export default defineComponent({
   components: {
     Logo,
